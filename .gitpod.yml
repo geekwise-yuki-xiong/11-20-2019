@@ -1,0 +1,8 @@
+ports:
+    - port: 8000
+    - port: 3000
+
+tasks:
+    - command: > 
+          pyenb global 3.7.4 &&
+          pipenv shell
